@@ -1,6 +1,8 @@
 # Implemetation of Finding Frequent Item Set #
 
-Command line usage : python3 main.py <data_set> <min_sup> <method> <tlen> <items> <size>
+Command line usage : 
+
+python3 main.py <data_set> <min_sup> <method> <tlen> <items> <size>
 
 data set : 'anime' / 'ibm'
 
