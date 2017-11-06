@@ -1,5 +1,5 @@
-# Implemetation of Finding Frequent Item Set
-============================================
+# Implemetation of Finding Frequent Item Set #
+
 Command line usage : python3 main.py <data_set> <min_sup> <method> <T> <I> <D>
 
 data set : 'anime' / 'ibm'
@@ -20,7 +20,7 @@ D (data set = 'ibm') : 5/10/15/20/25/30
 
     Not all combination of T/I/D will success, it depends on .data in directory
 
-#Dependency#
+## Dependency ##
 
 * Numpy
 * Pandas
