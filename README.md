@@ -18,9 +18,9 @@ I (data set = 'ibm') : 2/4
 
 D (data set = 'ibm') : 5/10/15/20/25/30
 
-Not all combination of T/I/D will success, it depends on .data in directory
+    Not all combination of T/I/D will success, it depends on .data in directory
 
-##Dependency
+#Dependency
 
 * Numpy
 * Pandas
