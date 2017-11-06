@@ -1,6 +1,6 @@
 # Implemetation of Finding Frequent Item Set #
 
-Command line usage : python3 main.py <data_set> <min_sup> <method> <t> <i> <d>
+Command line usage : python3 main.py <data_set> <min_sup> <method> <tlen> <items> <size>
 
 data set : 'anime' / 'ibm'
 
@@ -12,13 +12,19 @@ min_sup : (0,1)
 
 method : 'fp' / 'apriori'
 
-t (data set = 'ibm') : 10/20
+tlen (data set = 'ibm') : 10/20
 
-i (data set = 'ibm') : 2/4
+    Length of each transaction
+
+items (data set = 'ibm') : 2/4
+
+    Maximum pattern length
 
 d (data set = 'ibm') : 5/10/15/20/25/30
 
-    Not all combination of T/I/D will success, it depends on .data in directory
+    Data size
+
+Not all combination of T/I/D will success, it depends on .data in directory
 
 ## Dependency ##
 
