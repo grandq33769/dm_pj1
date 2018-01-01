@@ -8,7 +8,7 @@ import logging as log
 import numpy as np
 import pandas as pd
 
-DATA_PATH = 'anime.csv'
+DATA_PATH = '../anime.csv'
 BOUNDARY = namedtuple('Boundary', ['max', 'min'])
 LEVELS = ['Low', 'Below Average', 'Average', 'Above Average', 'High']
 
